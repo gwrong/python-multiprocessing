@@ -7,3 +7,5 @@ Sum: 48112680
 Time taken without multiprocessing: 7.47199988365 seconds
 Sum: 48112680
 Time taken with multiprocessing: 3.64199995995 seconds
+
+Full credit to https://archive.ics.uci.edu/ml/datasets/Poker+Hand for the poker hand data set
