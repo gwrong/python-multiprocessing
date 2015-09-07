@@ -47,5 +47,7 @@ def main():
     print('Time taken with multiprocessing: ' + str(timeTaken) + ' seconds')
     dataFile.close()
 
+#Wrap this in a main function to fix Windows freeze_support
+#See http://stackoverflow.com/questions/13922597/multiprocessing-freeze-support
 if __name__ == "__main__":
     main()
